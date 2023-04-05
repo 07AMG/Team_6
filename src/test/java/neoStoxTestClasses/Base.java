@@ -28,6 +28,8 @@ public class Base {
 	Reporter.log("lanuching neostox ",true);
 	driver.manage().window().maximize();
 	Utility.implicitwait(driver, 1000);
+	
+	//comment 1
 	}
 
 }
