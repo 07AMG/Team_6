@@ -18,8 +18,10 @@ public class Base {
 	public void LaunchBrowser() throws IOException
 	{
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\ankit_ilg3qq0\\Selenium\\chromedriver.exe");
+	
 	ChromeOptions co=new ChromeOptions();
 	co.addArguments("--remote-allow-origins=*");
+	
 	driver=new ChromeDriver(co);
 	//driver.get("https://neostox.com/");
 	driver.get(Utility.ReadDataFromPropertiesFile("URL"));
