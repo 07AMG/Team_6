@@ -30,6 +30,8 @@ public class Base {
 	Utility.implicitwait(driver, 1000);
 	
 	//comment 1
+	
+	//comment2
 	}
 
 }
