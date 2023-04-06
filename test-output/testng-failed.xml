@@ -9,6 +9,7 @@
           <include name="closingNEOSTOX"/>
           <include name="validateUSERNAME"/>
           <include name="launchingBROWSER"/>
+          <include name="validateACCOUNTBALANCE"/>
           <include name="logotfromNEOSTOX"/>
         </methods>
       </class> <!-- neoStoxTestClasses.ValidatingUserNameUsingListener -->
