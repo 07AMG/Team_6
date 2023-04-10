@@ -7,5 +7,5 @@ int ab=1;
 char q='a';
 String k="nku";
 int an=11;
-char v='b';
+char z='b';
 }
